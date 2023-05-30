@@ -33,3 +33,9 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Ignore all .env files
+env/.env*
+
+# Except for .env.example
+!env/.env.example
